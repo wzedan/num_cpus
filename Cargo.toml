@@ -10,6 +10,7 @@ documentation = "https://docs.rs/num_cpus"
 keywords = ["cpu", "cpus", "cores"]
 categories = ["hardware-support"]
 readme = "README.md"
+edition = "2021"
 
 [target.'cfg(not(windows))'.dependencies]
 libc = "0.2.26"
